@@ -11,6 +11,6 @@ if you don't have the packages in `requirements.txt`
 2. `demo-validation-soap.ipynb`: use SOAP similarity to analyse a 10,000-atom compression MD simulation of silicon
 
 # To accompany:
-["How to validate machine-learned interatomic potentials"](https://arxiv.org/abs/2211.12484, J. D. Morrow, John L. A. Gardner, and Volker L. Deringer)
+["How to validate machine-learned interatomic potentials"](https://arxiv.org/abs/2211.12484), J. D. Morrow, John L. A. Gardner, and Volker L. Deringer
 
 J D. Morrow
