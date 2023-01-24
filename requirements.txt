@@ -1,3 +1,5 @@
 quippy-ase
 matplotlib
 numpy
+pandas
+scikit-learn
