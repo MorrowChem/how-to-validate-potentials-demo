@@ -1,7 +1,7 @@
 Some tutorial-style examples for using ML potentials for Molecular Dynamics simulations
 
 # Install
-You may have to do
+You may have to do  
 `conda create -n how-to-validate`  
 `pip install -r requirements.txt`
 if you don't have the packages in `requirements.txt`
