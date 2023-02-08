@@ -1,0 +1,4 @@
+lammps
+log.lammps
+lammps_runs/*
+__pycache__
