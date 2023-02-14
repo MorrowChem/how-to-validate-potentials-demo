@@ -83,3 +83,8 @@ Instructions and explanations are in the notebooks, which you can run in the bro
 Here is an intro to Jupyter Notebooks if you are not familiar with them:
 
 https://www.dataquest.io/blog/jupyter-notebook-tutorial/
+
+
+# To copy back data from the cluster
+
+        scp -r teachingXX@arc-cXXX:/home/teachingXX/a-file-you-want .
