@@ -11,7 +11,7 @@ in mobaXterm or powershell (Windows) or terminal (Mac/Linux)
 
         ssh teachingXX@arc-login.arc.ox.ac.uk
 
-use the username and password associated with your account (emailed)
+use the username and password associated with your account (emailed).
 
 # Download the demo files from GitHub
 
@@ -44,7 +44,11 @@ changing **YOUR_SHELL_NAME** to **bash**
         pip install -r requirements.txt
 
 # Jump on to the compute node
-make sure your ~/.bash_profile file has the chem20XXXX reservation instead of teaching
+make sure your ~/.bash_profile file has the chem20XXXX reservation instead of teaching. You can also prevent the auto-timeout of your shell by adding this line to the bottom of your ~/.bash_profile file:
+
+        export TMOUT=36000 # 10 hours
+
+then log in to the compute node with:
 
         srun --nodes=1 --ntasks-per-node=40 --time=04:00:00 --pty /bin/bash
 
