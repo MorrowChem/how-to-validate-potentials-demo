@@ -1,6 +1,6 @@
 This is a set of instructions for connecting to the University High-Performance Computing (HPC) cluster, ARC, and running the demo notebooks for the OxICFM CDT Advanced Solids workshop.
 
-ARC uses a linux operating system, like most HPC clusters, and has no GUI, only a command-line. I'd recommend getting familar with the basics of running commands in a BASH terminal by reading through this briefly if you get stuck, or want to learn more about what the following recipe is doing: 
+ARC uses a linux operating system, like most HPC clusters, and has no GUI, only a command-line. I recommend getting familar with the basics of running commands in a BASH terminal by reading through this briefly if you get stuck, or if you want to learn more about what the following recipe is doing: 
 
         https://linuxconfig.org/bash-scripting-tutorial-for-beginners
 
@@ -8,7 +8,8 @@ ARC uses a linux operating system, like most HPC clusters, and has no GUI, only 
 # connect to ARC
 
 in mobaXterm or powershell (Windows) or terminal (Mac/Linux)
-        ssh teaching**XX**@arc-login.arc.ox.ac.uk
+
+        ssh teachingXX@arc-login.arc.ox.ac.uk
 
 use the username and password associated with your account (emailed)
 
