@@ -37,15 +37,16 @@ changing **YOUR_SHELL_NAME** to **bash**
 
 # Install python packages
 
-        conda create -n -y cdt python=3.8 pip jupyterlab cmake
+        conda create -y -n cdt python=3.8 pip jupyterlab cmake
 
         conda activate cdt
 
         pip install -r requirements.txt
 
 # Jump on to the compute node
+make sure your ~/.bash_profile file has the chem20XXXX reservation instead of teaching
 
-        srun --nodes=1 --ntasks-per-node=40 --partition=interactive  --time=04:00:00 --pty /bin/bash
+        srun --nodes=1 --ntasks-per-node=40 --time=04:00:00 --pty /bin/bash
 
 you should see something like `(base) [teachingXX@arc-c304` at the start of the line instead of `arc-login`
 
@@ -58,7 +59,7 @@ you should see something like `(base) [teachingXX@arc-c304` at the start of the 
 # Connect to the jupyter server on your local machine
 run this command in a new shell on your local machine (not on ARC). Make sure you change the **XXX**s to your username and node number.
 
-        ssh -L localhost:8080:arc-cXXX:8888 teachingXX@arc-login.arc.ox.ac.uk
+        ssh -L 8080:arc-cXXX:8888 teachingXX@arc-login.arc.ox.ac.uk
 
 # Open the jupyter server in your browser
 open a browser on your local machine and copy and paste the address from your terminal on ARC that looks like the below. Notice the change of the port number from 8888 to 8080 -- you need to do this manually
