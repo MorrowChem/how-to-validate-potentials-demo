@@ -1,6 +1,5 @@
 quippy-ase
 matplotlib
-multiprocessing 
 numpy
 pandas
 scikit-learn
